@@ -3,12 +3,28 @@ h1 {
 }
 
 .marker {
-    background-color: red;
     height: 25px;
     width: 200px;
 
     /*When you use two values for the shorthand margin property, it sets margin-top and margin-bottom to the first value,
     and margin-left and margin-right to the second value */
     margin: 10px auto;
+}
 
+
+/* A function is a piece of code that can take an input and perform a specific action */
+.one {
+    background-color: rgb(255, 0, 0);
+}
+
+.two {
+    background-color: rgb(0, 255, 0);
+}
+
+.three {
+    background-color: rgb(0, 0, 255);
+}
+
+.container {
+    background-color: rbg(0, 0, 0);
 }
