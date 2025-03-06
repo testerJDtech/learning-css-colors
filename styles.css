@@ -15,17 +15,20 @@ h1 {
 /* A function is a piece of code that can take an input and perform a specific action */
 .one {
     /* Mixing full intensity of red and green will make yellow */
-    background-color: rgb(255, 255, 0);
+    /* Mixing full intensity of red and half of green will make orange */
+    background-color: rgb(255, 127, 0);
 }
 
 .two {
     /* Mixing full intensity of green and blue will make cyan */
-    background-color: rgb(0, 255, 255);
+    /* Mixing full intensity of green and half of blue will make spring green */
+    background-color: rgb(0, 255, 127);
 }
 
 .three {
     /* Mixing full intensity of blue and red will make magenta */
-    background-color: rgb(255, 0, 255);
+    /* Mixing full intensity of blue and half of red will make violet */
+    background-color: rgb(127, 0, 255);
 }
 
 /* You can get secondary colors by mixing primary colors with each other. */
