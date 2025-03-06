@@ -16,19 +16,22 @@ h1 {
 .one {
     /* Mixing full intensity of red and green will make yellow */
     /* Mixing full intensity of red and half of green will make orange */
-    background-color: rgb(255, 127, 0);
+    /* Mixing half of red and full intensity of green will make chartreuse green */
+    background-color: rgb(127, 255, 0);
 }
 
 .two {
     /* Mixing full intensity of green and blue will make cyan */
     /* Mixing full intensity of green and half of blue will make spring green */
-    background-color: rgb(0, 255, 127);
+    /* Mixing half of green and full intensity of blue will make azure*/
+    background-color: rgb(0, 127, 255);
 }
 
 .three {
     /* Mixing full intensity of blue and red will make magenta */
     /* Mixing full intensity of blue and half of red will make violet */
-    background-color: rgb(127, 0, 255);
+    /* Mixing half of blue and full intensity of red will make rose */
+    background-color: rgb(255, 0, 127);
 }
 
 /* You can get secondary colors by mixing primary colors with each other. */
