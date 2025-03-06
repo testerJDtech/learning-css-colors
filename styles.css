@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    background-color: rgb(0, 255, 255);
 }
 
 .marker {
@@ -17,25 +18,28 @@ h1 {
     /* Mixing full intensity of red and green will make yellow */
     /* Mixing full intensity of red and half of green will make orange */
     /* Mixing half of red and full intensity of green will make chartreuse green */
-    background-color: rgb(127, 255, 0);
+    background-color: rgb(0, 0, 0);
 }
 
 .two {
     /* Mixing full intensity of green and blue will make cyan */
     /* Mixing full intensity of green and half of blue will make spring green */
     /* Mixing half of green and full intensity of blue will make azure*/
-    background-color: rgb(0, 127, 255);
+    background-color: rgb(255, 0, 0);
 }
 
 .three {
     /* Mixing full intensity of blue and red will make magenta */
     /* Mixing full intensity of blue and half of red will make violet */
     /* Mixing half of blue and full intensity of red will make rose */
-    background-color: rgb(255, 0, 127);
+    background-color: rgb(0, 0, 0);
 }
 
 /* You can get secondary colors by mixing primary colors with each other. */
 /* You can get tertiary colors by combining a primary color with a nearby secondary color. */
+/* Two colors that are opposite to each other on the color wheel are called complementary colors. */
+/* If two complementary colors are combined, they produce gray. */
+
 .container {
     background-color: rbg(255, 255, 255);
     padding: 10px 0;
